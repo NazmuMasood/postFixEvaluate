@@ -66,6 +66,7 @@ The program will ask the user to input a value(say n).
   <tr><td>-</td><td>Subtraction</td></tr>
   <tr><td>x</td><td>Multiplication operator</td></tr>
   <tr><td>/</td><td>Division operator</td></tr>
+  <tr><td>%</td><td>Modulus operator</td></tr>
   <tr><td>^</td><td>Power operator</td></tr>
 </table>
 
