@@ -6,13 +6,13 @@ postfixEvaluate is a simple, handy expression evaluator for java that calculates
 
 ## General view
 ```
- Input:
+ INPUT:
  a=2
  b=6
  c=3
  a^2+b/c-cxc+(a+b)
  
- Output:
+ OUTPUT:
  5
 ```
 ## Details about the program
@@ -22,7 +22,7 @@ The program will ask the user to input a value(say n).
  Then program will calculate the final value for each of the given expression using first n lines of input. 
  If you can't evaluate any expression from given numbers of identifiers then output 'Compilation Error'.  
 ``` 
- Input:
+ INPUT:
  3
  a = 1
  b = 2
@@ -31,14 +31,14 @@ The program will ask the user to input a value(say n).
  a x b + a x c + b x c
  a x c - b / c + (c x c)
  
- Output:
+ OUTPUT:
  Postfix expression : a b x a c x + b c x + 
  Answer is 8
  
  Postfix expression : a c x b c / - c c x +  
  Answer is 5
  
- Input:
+ INPUT:
  4
  g = 2
  p = 3
@@ -49,7 +49,7 @@ The program will ask the user to input a value(say n).
  t - g + t - w
  e + t x t - m
  
- Output:
+ OUTPUT:
  Postfix expression : g p t x + w p x - 
  Answer is -1
  
